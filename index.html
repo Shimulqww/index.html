@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Earn $10,000 Crypto Bonuses | Binance Bybit Bitget</title>
+  <meta name="description" content="Get $10,000 in crypto rewards using our secret Binance, Bybit, and Bitget referral tricks. Auto-copy codes and join fast!" />
+  <meta property="og:title" content="Earn $10,000 in Crypto Bonuses" />
+  <meta property="og:description" content="Join Binance, Bybit & Bitget using our viral tricks. Auto-referral. Instant bonuses." />
+  <meta property="og:image" content="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" />
+  <meta property="og:url" content="https://t.me/moneyanouncement" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+    }
+    .btn {
+      background-color: #fcd535;
+      color: #111;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .footer-link {
+      margin-top: 30px;
+      display: block;
+      color: #1e88e5;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Redirecting to Crypto Bonus...</h1>
+  <p>You are being redirected to claim your crypto bonus.</p>
+  <p>If you are not redirected, <a href="https://accounts.binance.com/register?ref=538997774">click here</a>.</p>
+
+  <h2>Live Bonus Claimed: <span id="bonusCounter">0</span></h2>
+  <a href="https://t.me/moneyanouncement" class="footer-link" target="_blank">Join Our Telegram</a>
+
+  <script>
+    // Auto copy (optional use)
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Referral link copied!');
+      });
+    }
+
+    // Bonus counter
+    let counter = 0;
+    const counterEl = document.getElementById("bonusCounter");
+    function updateCounter() {
+      counter += Math.floor(Math.random() * 10 + 1);
+      counterEl.innerText = counter.toLocaleString();
+    }
+    setInterval(updateCounter, 2000);
+
+    // Redirect chain: Binance → Bybit → Bitget
+    const redirects = [
+      "https://accounts.binance.com/register?ref=538997774",
+      "https://partner.bybit.com/b/81493",
+      "https://www.bitgetapps.com/referral/register?clacCode=8N4QKHYU"
+    ];
+
+    let current = 0;
+
+    function startRedirect() {
+      if (current < redirects.length) {
+        setTimeout(() => {
+          window.location.href = redirects[current];
+          current++;
+        }, 3000); // 3 second delay
+      }
+    }
+
+    startRedirect();
+  </script>
+
+</body>
+</html>
